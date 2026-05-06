@@ -1,6 +1,7 @@
 # 2 Bonus
 using Pkg
-Pkg.activate()
+Pkg.activate(".")
+Pkg.instantiate()
 
 Pkg.add("Plots")
 Pkg.add("LaTeXStrings")
